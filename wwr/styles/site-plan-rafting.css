@@ -9,7 +9,7 @@ Fonts are separated by a & */
   --primary-color: #05387a;
   --secondary-color: #008AA5;
   --accent1-color: #D89607;
-  --accent2-color: #8093F1;
+  --accent2-color: #ffdf99;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Satisfy";
@@ -17,14 +17,17 @@ Fonts are separated by a & */
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #05387a;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --headline-color-on-color: #ffdf99; /* headlines on a colored background */ 
   --paragraph-color-on-white: #05387a; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-color-on-color: #ffdf99; /* paragraph text on a colored background */ 
   --paragraph-background-color: #05387a;
-  --nav-link-color: white;
+
+
+  /* IMPORTAAAAANNNTTT UPDATE THIS COLORS WITH PALETTE COLOORS */
+  --nav-link-color: #ffdf99;
   --nav-background-color: #05387a;
   --nav-hover-link-color: #05387a;
-  --nav-hover-background-color: white;
+  --nav-hover-background-color: #ffdf99;
 }
 
 
