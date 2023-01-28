@@ -63,14 +63,14 @@ nav a:hover {
 
 .book, .join {
     text-align: center;
-    background-color:#008AA5;
-    color: black;
+    background-color:#ffdf99;
+    color: #05387a;
     text-decoration: none;
 }
 
 .book:hover, .join:hover {
-    background-color: black;
-    color: #008AA5;
+    background-color: #05387a;
+    color: #ffdf99;
 }
 
 h4 {
