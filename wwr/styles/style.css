@@ -15,7 +15,7 @@ nav a {
     text-decoration:  none;
 }
 
-#hero-msg h1, #hero-msg, h4 {
+#hero-msg h1, #hero-msg h4 {
     text-align: center;
 }
 
@@ -82,11 +82,11 @@ h4 {
 }
 
 .msg h2 {
-    color: #008AA5;
+    color: #d69f29;
 }
 
 .msg p {
-    color: #008AA5;
+    color: #d69f29;
 }
 
 footer {
