@@ -1,0 +1,43 @@
+#logo {
+    margin: 0 auto;
+    width: 100%;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: gray;
+}
+
+#photos{
+    display: flex;
+    padding: 40px;
+}
+
+.desk-img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 20px solid black
+}
+
+.graphic-img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 20px solid black
+
+}
+
+.person-img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 20px solid black
+}
