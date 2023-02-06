@@ -83,6 +83,7 @@ nav a:hover {
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
+    font-family: "Lora", "Rock Salt", sans-serif;
 }
 
 .book:hover, .join:hover {
