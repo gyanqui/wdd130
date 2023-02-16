@@ -1,14 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Satisfy&display=swap');
 
-/* * {
-    border: 2px solid greenyellow;
-} */
-
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
-
 
 nav a {
     text-align: center;
@@ -141,13 +136,11 @@ h4 {
     padding: 35px;
     grid-area: 6/6/7/10;
     box-shadow: 5px 5px 10px #05387a;
-
 }
 
 .msg h2 {
     color: #05387a;
     font-family: "Lora", "Rock Salt", sans-serif;
-
 }
 
 .msg p {
@@ -173,7 +166,6 @@ footer a {
 
 footer a:hover {
     color: #ffdf99;
-
 }
 
 footer p {
