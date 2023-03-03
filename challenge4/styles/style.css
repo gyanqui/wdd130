@@ -1,0 +1,50 @@
+
+
+.firstgrid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+
+
+
+.page-corner {
+    border-radius: 20px;
+    max-width: 600px;
+}
+
+.london {
+    width: 100%;
+
+}
+
+
+body {
+    text-align: center;
+}
+
+
+.first {
+    color: #05387a;
+    font-size: 1.5em;
+}
+
+.second {
+    font-size: 2.5em;
+    font-family: bold, serif;
+    font-family: 1.5em;
+}
+
+ 
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #05387a;
+    color: white;
+    border: 1px solid gray;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
