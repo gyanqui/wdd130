@@ -249,9 +249,10 @@ main section img {
 
 #faq-background {
     height: 300px;
-    background-color: #d69f29;
-    margin-bottom: 40px ;
+    background-color: #ffdf99;
     grid-area: 4/1/9/11;
+    margin: 40px auto;
+    padding: 25px;
 }
 
 .faq-grid {
@@ -269,7 +270,7 @@ main section img {
     margin: auto 50px;
     font-family: "Satisfy", "Helvetica", sans-serif;
     font-size: 1.3em;
-    color: #d69f29;
+    color: #05387a;
 }
 
 .q1-msg p {
@@ -298,7 +299,7 @@ main section img {
     margin: auto 50px;
     font-family: "Satisfy", "Helvetica", sans-serif;
     font-size: 1.3em;
-    color: #d69f29;
+    color: #05387a;
 }
 
 .q2-msg p {
@@ -327,7 +328,7 @@ main section img {
     margin: auto 50px;
     font-family: "Satisfy", "Helvetica", sans-serif;
     font-size: 1.3em;
-    color: #d69f29;
+    color: #05387a;
 }
 
 .q3-msg p {
@@ -356,7 +357,7 @@ main section img {
     margin: auto 50px;
     font-family: "Satisfy", "Helvetica", sans-serif;
     font-size: 1.3em;
-    color: #d69f29;
+    color: #05387a;
 }
 
 .q4-msg p {
@@ -385,7 +386,7 @@ main section img {
     margin: auto 50px;
     font-family: "Satisfy", "Helvetica", sans-serif;
     font-size: 1.3em;
-    color: #d69f29;
+    color: #05387a;
 }
 
 .q5-msg p {
@@ -414,7 +415,7 @@ main section img {
     margin: auto 50px;
     font-family: "Satisfy", "Helvetica", sans-serif;
     font-size: 1.3em; 
-    color: #d69f29;
+    color: #05387a;
 }
 
 .q6-msg p {
@@ -440,14 +441,14 @@ main section img {
     margin: 50px auto;
     padding: 25px;
     font-family: "Lora", "Rock Salt", sans-serif;
-    background-color: #d69f29;
+    background-color: #ffdf99;
     color: #05387a;
     box-shadow: 5px 5px 10px #05387a;
 }
 
 .faq-contact {
     background-color:#05387a;
-    color: #ffdf99;
+    color: #d69f29;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
@@ -457,7 +458,7 @@ main section img {
 }
 
 .faq-contact:hover {
-    background-color: #ffdf99;
+    background-color: #d69f29;
     color: #05387a;
 }
 
