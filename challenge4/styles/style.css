@@ -10,7 +10,6 @@
 
 
 
-
 .page-corner {
     border-radius: 20px;
     max-width: 600px;
@@ -24,21 +23,30 @@
 
 body {
     text-align: center;
+    margin: 0px auto;
 }
 
 
 .first {
     color: #05387a;
     font-size: 1.5em;
+    padding: 0px;
 }
 
 .second {
     font-size: 2.5em;
     font-family: bold, serif;
     font-family: 1.5em;
+    padding-top: 0px;
 }
 
- 
+.tre {
+    line-height: 30px;
+    font-size: 1.5em;
+    padding: 0px;
+    margin: 15px 45px;
+} 
+
 footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
