@@ -1,0 +1,238 @@
+/* FAQ PAGE STYLE */
+.faq-title {
+    color: #05387a;
+    font-family: "Satisfy", "Helvetica", sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+#faq-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+    font-family: "Satisfy", "Helvetica", sans-serif;
+    font-size: 1.3em;
+}
+
+#faq-msg h4 {
+    color: #05387a;
+}
+
+#faq-msg h1, #faq-msg h4 {
+    text-align: center;
+}
+
+#faq-background {
+    height: 300px;
+    background-color: #ffdf99;
+    grid-area: 4/1/9/11;
+    margin: 40px auto;
+    padding: 25px;
+}
+
+.faq-grid {
+    display: grid;
+    grid-template-columns: 800px 800px;
+    justify-items: center;
+    align-items: center;
+}
+
+.faq-q1 {
+    grid-area: 1/2/2/3;
+}
+
+.q1-msg h3 {
+    margin: auto 50px;
+    font-family: "Satisfy", "Helvetica", sans-serif;
+    font-size: 1.3em;
+    color: #05387a;
+}
+
+.q1-msg p {
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 40px;
+    color: #008AA5;
+    font-family: "Lora", "Rock Salt", sans-serif;
+}
+
+.q1-img {
+    grid-area: 1/1/2/2;
+    width: 600px;
+    height: 600px;
+    object-fit: contain;
+    margin: 50px auto;
+}
+
+.faq-q2 {
+    grid-area: 2/1/3/2;
+}
+
+.q2-msg h3 {
+    margin: auto 50px;
+    font-family: "Satisfy", "Helvetica", sans-serif;
+    font-size: 1.3em;
+    color: #05387a;
+}
+
+.q2-msg p {
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 40px;
+    color: #008AA5;
+    font-family: "Lora", "Rock Salt", sans-serif;
+}
+
+.q2-img {
+    grid-area: 2/2/3/3;
+    width: 600px;
+    height: 600px;
+    object-fit: contain;
+    margin: 50px auto;
+}
+
+.faq-q3 {
+    grid-area: 3/2/4/3;
+}
+
+.q3-msg h3 {
+    margin: auto 50px;
+    font-family: "Satisfy", "Helvetica", sans-serif;
+    font-size: 1.3em;
+    color: #05387a;
+}
+
+.q3-msg p {
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 40px;
+    color: #008AA5;
+    font-family: "Lora", "Rock Salt", sans-serif;
+}
+
+.q3-img {
+    grid-area: 3/1/4/2;
+    width: 600px;
+    height: 600px;
+    object-fit: contain;
+    margin: 50px auto;
+}
+
+.faq-q4 {
+    grid-area: 4/1/5/2;
+}
+
+.q4-msg h3 {
+    margin: auto 50px;
+    font-family: "Satisfy", "Helvetica", sans-serif;
+    font-size: 1.3em;
+    color: #05387a;
+}
+
+.q4-msg p {
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 40px;
+    color: #008AA5;
+    font-family: "Lora", "Rock Salt", sans-serif;
+}
+
+.q4-img {
+    grid-area: 4/2/5/3;
+    width: 600px;
+    height: 600px;
+    object-fit: contain;
+    margin: 50px auto;
+}
+
+.faq-q5 {
+    grid-area: 5/2/6/3;
+}
+
+.q5-msg h3 {
+    margin: auto 50px;
+    font-family: "Satisfy", "Helvetica", sans-serif;
+    font-size: 1.3em;
+    color: #05387a;
+}
+
+.q5-msg p {
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 40px;
+    color: #008AA5;
+    font-family: "Lora", "Rock Salt", sans-serif;
+}
+
+.q5-img {
+    grid-area: 5/1/6/2;
+    width: 600px;
+    height: 600px;
+    object-fit: contain;
+    margin: 50px auto;
+}
+
+.faq-q6 {
+    grid-area: 6/1/7/2;
+}
+
+.q6-msg h3 {
+    margin: auto 50px;
+    font-family: "Satisfy", "Helvetica", sans-serif;
+    font-size: 1.3em; 
+    color: #05387a;
+}
+
+.q6-msg p {
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 40px;
+    color: #008AA5;
+    font-family: "Lora", "Rock Salt", sans-serif;
+}
+
+.q6-img {
+    grid-area: 6/2/7/3;
+    width: 600px;
+    height: 600px;
+    object-fit: contain;
+    margin: 50px auto;
+}
+
+.faq-msg {
+    grid-area: 7/1/8/3;
+    margin: 50px auto;
+    padding: 25px;
+    font-family: "Lora", "Rock Salt", sans-serif;
+    background-color: #ffdf99;
+    color: #05387a;
+    box-shadow: 5px 5px 10px #05387a;
+}
+
+.faq-contact {
+    background-color:#05387a;
+    color: #d69f29;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    font-family: "Lora", "Rock Salt", sans-serif;
+}
+
+.faq-contact:hover {
+    background-color: #d69f29;
+    color: #05387a;
+}
