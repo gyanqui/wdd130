@@ -65,20 +65,10 @@ nav a:hover {
     font-family: "Rubik", "Helvetica", sans-serif;
 }
 
-#home-img {
-    width: 100%;
-}
-
 #home-box {
     grid-column: 1/4;
     grid-row: 1/3;
     z-index: -1;
-}
-
-.home-title {
-    font-family: "Rubik", "Helvetica", sans-serif;
-    font-size: 2em;
-    margin-top: 10px;
 }
 
 .button-box {
@@ -113,6 +103,7 @@ nav a:hover {
     align-content: center;
     color: #14344e;
     font-size: 3em;
+    font-family: "Rubik", "Helvetica", sans-serif;
 }
 
 .home-grid {
@@ -124,6 +115,7 @@ nav a:hover {
     width: 80%;
     grid-area: 1/1/3/2;
     margin: 20px auto;
+    box-shadow: 5px 5px 10px #373e43;
 }
 
 p {
@@ -290,10 +282,73 @@ padding-top: 15px;
 
 /* SHOWCASE PAGE */
 
-.showcase-title {
-    font-family: "Rubik", "Helvetica", sans-serif;
+.showcase-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+h3 {
+    grid-area: 1/1/2/3;
+    color: #14344e;
     font-size: 2em;
-    margin-top: 10px;
-    color: red;
-    background-color: blue;
+    font-family: "Rubik", "Helvetica", sans-serif;
+    display: grid;
+    place-items: center;
+    text-decoration: underline;
+}
+
+main div div h4 {
+    text-decoration: underline;
+}
+
+#list-photo {
+    grid-area: 2/1/3/2;
+    margin: 20px auto;
+    font-size: 1.5em;
+    /* text-align: center; */
+    line-height: 1.5em;
+    color: #7e9181;
+    font-family: "Raleway", "Rock Salt", sans-serif;
+}
+
+.showcase-img {
+    width: 80%;
+    grid-area: 2/2/3/3;
+    margin: 20px auto;
+    box-shadow: 5px 5px 10px #373e43;
+}
+
+#show-text{
+    text-align: center;
+    margin: 100px 100px;
+    color: #7e9181;
+    font-family: "Raleway", "Rock Salt", sans-serif;
+}
+
+.go-github, .go-home {
+    background-color:#c7cedb;
+    color: #14344e;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px; 
+    margin-top: 50px;
+    border-radius: 5px;
+    font-family: "Raleway", "Rock Salt", sans-serif;
+}
+
+.go-github:hover, .go-home:hover {
+    background-color: #14344e;
+    color: #c7cedb;
+}
+
+
+.go-github {
+    grid-area: 3/2/4/3;
+    margin: 30px auto;
+}
+
+.home-button-box {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
 }
