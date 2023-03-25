@@ -288,3 +288,12 @@ padding-top: 15px;
   }
 
 
+/* SHOWCASE PAGE */
+
+.showcase-title {
+    font-family: "Rubik", "Helvetica", sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+    color: red;
+    background-color: blue;
+}
