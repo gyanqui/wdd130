@@ -84,6 +84,7 @@ nav a:hover {
     margin-top: 50px;
     border-radius: 5px;
     font-family: "Raleway", "Rock Salt", sans-serif;
+    box-shadow: 5px 5px 10px #373e43;
 }
 
 .book:hover, .blog:hover {
@@ -335,6 +336,7 @@ main div div h4 {
     margin-top: 50px;
     border-radius: 5px;
     font-family: "Raleway", "Rock Salt", sans-serif;
+    box-shadow: 5px 5px 10px #373e43;
 }
 
 .go-github:hover, .go-home:hover {
