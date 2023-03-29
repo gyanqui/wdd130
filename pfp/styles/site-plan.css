@@ -6,9 +6,9 @@ Fonts are separated by a | */
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #14344e   ;
-  --secondary-color: #373E43 ;
-  --accent1-color: #7e9181;
-  --accent2-color: #c7cedb;
+  --secondary-color: #7e9181 ;
+  --accent1-color: #c7cedb;
+  --accent2-color: #373e43;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Rubik", sans-serif;
